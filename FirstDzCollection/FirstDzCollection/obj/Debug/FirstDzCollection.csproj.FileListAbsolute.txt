@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\FirstDzCollection\FirstDzCollection\bin\Debug\FirstDzCollection.exe.config
+C:\Users\User\source\repos\FirstDzCollection\FirstDzCollection\bin\Debug\FirstDzCollection.exe
+C:\Users\User\source\repos\FirstDzCollection\FirstDzCollection\bin\Debug\FirstDzCollection.pdb
+C:\Users\User\source\repos\FirstDzCollection\FirstDzCollection\obj\Debug\FirstDzCollection.csprojAssemblyReference.cache
+C:\Users\User\source\repos\FirstDzCollection\FirstDzCollection\obj\Debug\FirstDzCollection.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\FirstDzCollection\FirstDzCollection\obj\Debug\FirstDzCollection.exe
+C:\Users\User\source\repos\FirstDzCollection\FirstDzCollection\obj\Debug\FirstDzCollection.pdb
