@@ -17,7 +17,7 @@ namespace Stats
 
             List<int> numbers = new List<int>();
             string sum = "sum";
-            string mySum = string.Empty;
+            string userCommand = string.Empty;
 
             int number = 0;
             int result = 0;
@@ -27,30 +27,26 @@ namespace Stats
 
             while (exit == false)
             {
-                mySum = Console.ReadLine();
-                isValidInput = int.TryParse(mySum, out number);
-                if (isValidInput == true)
+                userCommand = Console.ReadLine();
+                isValidInput = int.TryParse(userCommand, out number);
+                numbers.Add(number);
+                switch (userCommand)
                 {
-                    numbers.Add(number);
-                }
-                else
-                {
-                    switch (mySum)
-                    {
-                        case "sum":
-                            result = AdditionNumber(numbers);
-                            Console.WriteLine(result);
-                            numbers = new List<int>();
-                            break;
-                        case "exit":
+                    case "sum":
+                       result = SumNumber(numbers);
+                        Console.WriteLine(result);
+                        numbers = new List<int>();
+                        break;
+                    case "exit":
                             exit = true;
-                            break;
-                    }
+                        break;
                 }
             }
         }
 
-        public static int AdditionNumber(List<int> numbers)
+
+
+        public static int SumNumber(List<int> numbers)
         {
             int result = 0;
 
